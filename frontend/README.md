@@ -1,61 +1,39 @@
-<p align="center">
-   <a href="https://react-sneat-bootstrap-admin-template.vercel.app/" target="_blank">
-      <img style="margin-right:20px" src="https://user-images.githubusercontent.com/749684/150333149-805037bc-8874-4a1f-876a-61a9683f8ef5.png" alt="sneat-logo" width="30px" height="auto">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React Logo" height="45px">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/615px-Vitejs-logo.svg.png" alt="Vite Logo" height="45px">
-   </a>
-</p>
+# Node.js Project
 
-<h1 align="center">
-   <a href="https://react-sneat-bootstrap-admin-template.vercel.app/" target="_blank" align="center">
-      React Sneat - Free Bootstrap 5 Admin Template
-   </a>
-</h1>
+## Getting Started
 
-[![Sneat - Bootstrap 5 HTML Admin Template Demo Screenshot](https://github.com/themeselection/ts-assets/blob/main/sneat/sneat-bootstrap-html-admin-template-free/marketing/sneat-hrml-free-banner-github.png)](https://themeselection.com/item/sneat-free-bootstrap-html-admin-template/)
+### Prerequisites
+Make sure you have Node.js and npm installed on your system. You can download them from [Node.js official website](https://nodejs.org/).
 
-🚀 This project is a conversion of the Sneat Admin Template to React JS, providing a modern and responsive user interface for building powerful web applications. The original Sneat template was adapted to React components, making it easy to integrate into React-based projects.
+### Installation
+1. Initialize the project:
+   ```bash
+   npm init
+   ```
+   Follow the prompts to set up your `package.json` file. You can accept the defaults or customize them as needed.
 
-[View Demo React Sneat](https://react-sneat-bootstrap-admin-template.vercel.app/) Also check [ThemeSelection Sneat](https://demos.themeselection.com/sneat-bootstrap-html-admin-template-free/html/)
-## Features
+2. Install any required dependencies for your project:
+   ```bash
+   npm install
+   ```
 
-- Responsive layout for various screen sizes.
-- Clean and modular React components following Atomic Design principles.
-- Integration with popular React libraries for state management, routing, etc.
-- Theming and styling using modern CSS-in-JS approaches.
-- Pre-configured build setup for efficient development and production builds.
+### Running the Project
+To start your project, run the following command:
+```bash
+npm start
+```
+Make sure the `start` script is defined in your `package.json`. For example:
+```json
+"scripts": {
+  "start": "node index.js"
+}
+```
+Replace `index.js` with the entry point of your application if it's named differently.
 
-## Usage
-
-1. Clone the repository: `git clone https://github.com/11Dwiwijaya/react-sneat-bootstrap-admin-template.git`
-2. Install dependencies: `npm install`
-3. Run the development server: `npm start`
-4. Build for production: `npm run build`
-
-## Folder Structure
-
-- `src/components`: Atomic Design components (atoms, molecules, organisms, templates, pages).
-- `src/hooks`: Custom React hooks.
-- `src/layout`: Layout components.
-- `src/routes`: Application routing components.
-- `src/data`: Static data or mocks.
-- `src/utils`: Utility functions.
-- `src/assets`: Project-specific assets.
-- `src/styles`: Global styles and theming.
-- `public`: Static assets and HTML template.
-
-## What's the improvement?
-- **SEO**: Ensure proper HTML semantics, use semantic tags, and provide meaningful metadata.
-- **Performance**: Optimize assets, lazy load where possible, and implement code splitting.
-- **Accessibility**: Follow accessibility best practices, use ARIA roles, and ensure keyboard navigation.
-- **Responsive Design**: Prioritize a mobile-first approach and test on various devices.
-
-## Contributing
-
-Contributions are welcome! If you find issues or have improvements, please create a new issue or submit a pull request.
+### Additional Notes
+- If you encounter any errors, ensure all dependencies are correctly installed.
+- Use version control (e.g., Git) to track changes in your project files.
 
 ## License
+Specify your project's license (e.g., MIT, Apache-2.0).
 
-This project is licensed under the [MIT License](LICENSE).
-
-Happy coding!
