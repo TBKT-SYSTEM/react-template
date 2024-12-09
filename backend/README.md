@@ -6,13 +6,7 @@
 Make sure you have Node.js and npm installed on your system. You can download them from [Node.js official website](https://nodejs.org/).
 
 ### Installation
-1. Initialize the project:
-   ```bash
-   npm init
-   ```
-   Follow the prompts to set up your `package.json` file. You can accept the defaults or customize them as needed.
-
-2. Install any required dependencies for your project:
+1. Install any required dependencies for your project:
    ```bash
    npm install
    ```
