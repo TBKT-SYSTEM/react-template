@@ -1,0 +1,7 @@
+.ant-modal-mask {
+    z-index: 1081 !important; 
+  }
+  
+  .ant-modal-wrap {
+    z-index: 1082 !important;
+  }
